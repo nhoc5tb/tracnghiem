@@ -1,0 +1,222 @@
+@charset "utf-8";
+/* CSS Document */
+
+table, caption, tbody, tfoot, thead, tr, th, td {
+    border: 0 none;
+    font-size: 100%;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+	border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.list-price table {
+    border: 1px solid #d4d4d4;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin-bottom: 14px;
+    padding: 0;
+    width: 100%;
+}
+.list-price table th {
+    font-weight: bold;
+    padding-top: 9px;
+    vertical-align: middle;
+}
+.list-price table tbody tr {
+    background: #E4E4E4 none repeat scroll 0 0;
+}
+.list-price table tbody tr:nth-child(2n+1) {
+    background: rgba(242,242,242,0.80) none repeat scroll 0 0 !important;
+}
+
+.list-price table thead {
+    background: #e5e5e5 none repeat scroll 0 0;
+}
+.list-price table th, .list-price table td {
+    line-height: 14px;
+    padding: 10px 10px 9px;
+    text-align: center;
+}
+.list-price table tbody th {
+    border-top: 1px solid #ddd;
+    vertical-align: top;
+}
+.list-price table .title {
+    background: #d73402 none repeat scroll 0 0;
+    color: #FFF;
+    text-align: left;
+}
+.list-price table .title a{
+    color: #FFF;
+}
+.list-price table th {
+    font-weight: bold;
+    padding-top: 9px;
+    vertical-align: middle;
+}
+.list-price table th, .list-price table td {
+    line-height: 14px;
+    padding: 10px 10px 9px;
+    text-align: center;
+}
+.list-price table th + th, .list-price table td + td, .list-price table th + td {
+    border-left: 1px solid #d4d4d4;
+}
+.list-price table td {
+    border-top: 1px solid #d4d4d4;
+    vertical-align: middle;
+}
+
+.list-price table th, .list-price table td {
+    line-height: 14px;
+    padding: 10px 10px 9px;
+    text-align: center;
+}
+
+.list-price table tbody tr:hover {
+    background: rgba(204,204,204,0.80) none repeat scroll 0 0 !important;
+}
+
+.list-price table tbody tr td:nth-child(1){
+	color:rgba(179,8,10,1.00);
+	font-weight:600;
+	width:80px;
+}
+.list-price table tbody tr td:nth-child(3){
+	width:80px;
+}
+.list-price table tbody tr td:nth-child(4){
+	width:100px;
+}
+.list-price table tbody tr td:nth-child(5){
+	color:rgba(179,8,10,1.00);
+	font-weight:600;
+	text-align:right;
+	width:200px;
+}
+/*DAT HANG*/
+.dat-hang table{
+	margin-bottom:0px;
+}
+
+.dat-hang table tbody tr td:nth-child(1){
+	color:rgba(179,8,10,1.00);
+	font-weight:600;
+	width:80px;
+}
+.dat-hang table tbody tr td:nth-child(3){
+	width:120px;
+}
+.dat-hang table tbody tr td:nth-child(4){
+	width:80px;
+}
+
+.dat-hang table tbody tr td:nth-child(4) input{
+	width:90%;
+	padding:5px;
+	text-align:center;
+	
+} 
+.dat-hang table tbody tr td:nth-child(5){
+	color:rgba(0,0,0,1.00);
+	text-align:center;
+	width:80px;
+	font-weight:100;
+}
+
+.dat-hang table tbody tr td:nth-child(6){
+	color:rgba(179,8,10,1.00);
+	font-weight:600;
+	text-align:right;
+	width:150px;
+}
+
+.list-price table tbody tr td:nth-child(2){
+	text-align:left;
+}
+
+.list-price table tbody tr:nth-child(1) {
+	color:rgba(245,240,240,1.00) !important;
+	background:#7f4f21 !important;
+}
+.list-price table tbody tr:nth-child(1) td {
+    border-top: 0px solid #d4d4d4;
+	text-align:center;
+	color:rgba(255,251,251,1.00);
+	background:#7f4f21 !important;
+}
+
+/*BANG CHIET KAU*/
+
+
+.table-ck table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.table-ck table .title {
+    background: #7f4f21 none repeat scroll 0 0;
+    color: #fff;
+}
+.table-ck  td:first-child {
+    border-right: 1px solid #ffd9bb;
+    width: 60%;
+}
+.table-ck table td {
+    padding: 6px 8px;
+}
+.table-ck table td {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ffd9bb;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+
+.table-ck table tr:nth-child(2n) td {
+    background: #ffedde none repeat scroll 0 0;
+}
+.table-ck table td:first-child {
+    border-right: 1px solid #ffd9bb;
+    width: 60%;
+}
+
+ 
+.res_text table {
+    border-collapse: collapse;
+    border-spacing: 0;
+	max-width:500px
+}
+.res_text table tr.title td {
+    background: #7f4f21 none repeat scroll 0 0;
+    color: #fff;
+}
+.res_text table  td:first-child {
+    border-right: 1px solid #ffd9bb;
+    width: 60%;
+}
+.res_text table td {
+    padding: 6px 8px;
+}
+.res_text table td {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #ffd9bb;
+    font-size: 14px;
+    padding: 5px 8px;
+}
+
+.res_text table tr:nth-child(2n) td {
+    background: #ffedde none repeat scroll 0 0;
+}
+.res_text table td:first-child {
+    border-right: 1px solid #ffd9bb;
+    width: 60%;
+}
+
+.res_text h2 {
+    line-height:35px;
+	font-weight:600;
+}
+

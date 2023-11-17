@@ -1,0 +1,70 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+.xanh{    
+    @apply bg-lime-700; 
+    @apply hover:bg-lime-800 ;
+    @apply focus:ring-4 ;
+    @apply focus:ring-lime-300;
+}
+.vang{
+    @apply bg-yellow-400 ;
+    @apply  hover:bg-yellow-500 ;
+    @apply focus:ring-4 ;
+    @apply  focus:ring-yellow-300;
+}
+.tim {
+    @apply bg-purple-700;
+    @apply hover:bg-purple-800;
+    @apply focus:ring-4;
+    @apply focus:ring-purple-300;
+}
+.nuocbien {
+    @apply bg-sky-700;
+    @apply hover:bg-sky-800;
+    @apply focus:ring-4;
+    @apply focus:ring-sky-300;
+}
+.bg-box{
+    @apply mb-2  ;
+    @apply mx-auto ;
+    @apply block ;
+    @apply p-4 ;
+    @apply bg-white ;
+    @apply border ;
+    @apply border-gray-200 ;
+    @apply rounded-lg ;
+    @apply shadow ;
+    @apply hover:bg-gray-100 ;
+    @apply dark:bg-gray-800 ;
+    @apply dark:border-gray-700 ;
+    @apply dark:hover:bg-gray-700;
+}
+.bg-box-sub{
+    @apply mt-2 ;
+    @apply block ;
+    @apply bg-white ;
+    @apply border ;
+    @apply border-gray-200 ;
+    @apply rounded-lg ;
+    @apply shadow ;
+    @apply hover:bg-gray-200 ;
+    @apply dark:bg-gray-800 ;
+    @apply dark:border-gray-700 ;
+    @apply dark:hover:bg-gray-700 ;
+    @apply overflow-hidden;
+}
+.bg-box-sub.active{
+    @apply bg-gray-700;
+    @apply text-white; 
+}
+
+.bg-box-sub.active-fail{
+    @apply bg-red-800;
+    @apply text-white; 
+}
+
+.bg-box-sub.active-success{
+    @apply bg-gray-800;
+    @apply text-white; 
+}

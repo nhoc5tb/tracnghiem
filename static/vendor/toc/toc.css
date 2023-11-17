@@ -1,0 +1,18 @@
+#toc .active {
+    color: #ff8888;
+    font-weight: bold;
+    }
+
+    #toc ul {
+    list-style: none;
+    padding-left: 1.25rem;
+    }
+
+    #toc ul li::before {
+    content: "\2022";
+    color: #eeeeff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    }

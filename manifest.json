@@ -1,0 +1,13 @@
+{
+    "name": "TirTir Việt Nam",
+    "short_name": "TirTir",
+    "start_url": "/",
+    "display": "standalone",
+    "icons": [
+      {
+        "src": "static/images/favicon.png",
+        "sizes": "128x128",
+        "type": "image/png"
+      }
+    ]
+  }
